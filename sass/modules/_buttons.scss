@@ -1,0 +1,21 @@
+.primary-button{
+  		font-family: 'Montserrat', sans-serif;
+		display: inline-block;
+	    padding: 12px 31px;
+	    font-size: 14px;
+	    font-weight: 400;
+	    -ms-touch-action: manipulation;
+	    touch-action: manipulation;
+	    cursor: pointer;
+	    border: 1px solid transparent;
+	    border-radius: 4px;
+	    outline: none;
+	    background-color: $tertiary-color;
+	    box-shadow: 0 -3px rgba(0,0,0,0.3) inset;
+	    border-bottom: none;
+	    color: white;
+	     &:hover{
+	     	transition: 0.7s;
+	     	background-color: $quaternary-color;
+		}
+	}

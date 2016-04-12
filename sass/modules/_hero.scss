@@ -1,0 +1,48 @@
+.hero{
+	background: url("../images/home-video.jpg") no-repeat;
+	background-size: cover;
+	padding: 5em 0 14.8571em;
+	margin-top: -73px;
+	margin-bottom: 70px;
+	text-align: center;
+	color: $primary-color;
+	&__title{
+		font-family: 'Grand Hotel', cursive;
+		@include font-size(75px);
+		font-weight: normal;
+		 margin: 110px 0 -60px;
+	}
+	&__sub-title{
+		font-family: 'Montserrat', sans-serif;
+		@include font-size(60px);
+		text-transform: uppercase;
+		margin-bottom: 10px;
+	}
+		font-weight: bold;
+	&__description{
+		@include font-size(16px);
+		display: block;
+		margin-bottom: 30px;
+		font: 14px 'Open Sans', sans-serif;
+	}
+	&__button{
+  		font-family: 'Montserrat', sans-serif;
+		display: inline-block;
+	    padding: 12px 31px;
+	    font-size: 14px;
+	    font-weight: 400;
+	    -ms-touch-action: manipulation;
+	    touch-action: manipulation;
+	    cursor: pointer;
+	    border: 1px solid transparent;
+	    border-radius: 4px;
+	    outline: none;
+	    background-color: $tertiary-color;
+	    box-shadow: 0 -3px rgba(0,0,0,0.3) inset;
+	    border-bottom: none;
+	     &:hover{
+	     	transition: 0.7s;
+	     	background-color: $quaternary-color;
+	     }
+	}
+}

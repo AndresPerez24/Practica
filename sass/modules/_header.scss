@@ -1,0 +1,41 @@
+.header{
+	z-index: 99;
+}
+.main-nav{
+	float: right;
+	padding-top: 10px;
+	&__items{
+	display: inline-block;
+	font-family: Montserrat;
+	margin-right: 3px;
+	}
+	&__bold{
+		font-weight: 700;
+	}
+	&__links{
+	color: $primary-color;
+	border: 2px solid rgba(0, 0, 0, 0);
+	padding: 6px 8px;
+	&:hover{
+		transition: 0.7s;
+		border-color: white;
+		}
+	}
+}
+
+.nav-social{
+	float: right;
+	margin: 21px 0 0 20px; 
+  	padding: 0;
+	&__items{
+	display: inline-block;
+	padding: 3px 4px;
+		&:hover{
+			transition: 0.5s;
+			background-color: $secundary-color;
+		}
+	}
+	&__links{
+		color: $primary-color;
+	}
+}
