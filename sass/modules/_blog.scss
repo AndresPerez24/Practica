@@ -1,5 +1,7 @@
 .blog{
 	background: $background-color;
+	padding-bottom: 25px;
+	margin-bottom: 60px;
 	&__title{
 		font-family: 'Montserrat', sans-serif;
 		@include font-size(36px);
@@ -36,13 +38,5 @@
 	&__items-content{
 		color: $secundary-color;
 		display: inline-block;		
-	}
-	&__slider{
-		display: inline-block;
-		height: 220px;
-		width: 420px;
-		border: 1px solid;
-		float: right;
-		text-align: right;
 	}
 }
