@@ -1,0 +1,77 @@
+.footer{
+	background-color: $background-color;
+	padding-top: 10px;
+	&__description{
+		color: $secundary-color;
+		@include font-size(13px);
+		padding-bottom: 20px;
+		border-bottom: 1px solid #ddd;
+		font-family: 'Open Sans', sans-serif;
+	}
+	&__font-icon{
+		@include font-size(15px);
+	}
+	&__contact-info{
+		padding-left: 15px;
+		@include font-size(13px);
+		color: #999;
+	}
+	&__content-title{
+		padding-left: 40px;
+	}
+	&__list-item{
+		list-style: none;
+		padding: 7px;
+	}
+	&__list-link{
+		color: blacK;
+		&:hover{
+			color: $tertiary-color;
+		}
+	}
+	&__list-link-bold{
+		color: black;
+		font-weight: bold;
+		&:hover{
+			color: $tertiary-color;
+		}
+	}
+	&__blog-date{
+		display: block;
+		padding-top: 5px;
+		color: #999;
+		@include font-size(10px);
+	}
+	&__image{
+		width: 100%;
+		max-width: 86px;
+		border: 5px solid $primary-color;
+		margin-bottom: 15px;
+	}
+	&__nav-bar{
+		margin-top: 80px;
+		border-top: 1px solid #ddd;	
+	}
+	&__nav-bar-list{
+		float: right;
+		
+	}
+	&__nav-bar-item{
+		display: inline-block;
+	}
+	&__nav-bar-link{
+		color: #999;
+		@include font-size(11px);
+		font-weight: bold;
+		padding-right: 15px;
+		&:hover{
+			color: $tertiary-color;
+		}
+	}
+	&__nav-bar-description{
+		display: inline-block;
+		font-family: 'Montserrat', sans-serif;
+		color: #666;
+		@include font-size(12px);
+	}
+}

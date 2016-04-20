@@ -19,13 +19,13 @@
           <li class="nav-social__items"><a  class="nav-social__links"href="#"><span class="icon-youtube" ></span></a></li>
       </ul>
       <ul class="main-nav">
-        <li class= "main-nav__items main-nav__bold"><a class="main-nav__links" href="#">HOME</a></li>
-        <li class= "main-nav__items"><a class="main-nav__links" href="#">ABOUT</a></li>
-        <li class= "main-nav__items"><a class="main-nav__links" href="#">BLOG</a></li>
-        <li class= "main-nav__items"><a class="main-nav__links" href="#">SERVICES</a></li>
-        <li class= "main-nav__items"><a class="main-nav__links" href="#">PORTFOLIO</a></li>
-        <li class= "main-nav__items"><a class="main-nav__links" href="#">OTHER</a></li>
-        <li class= "main-nav__items"><a class="main-nav__links" href="#">CONTACT</a></li>
+        <li class= "main-nav__item main-nav__bold"><a class="main-nav__link" href="#">HOME</a></li>
+        <li class= "main-nav__item"><a class="main-nav__link" href="#">ABOUT</a></li>
+        <li class= "main-nav__item"><a class="main-nav__link" href="#">BLOG</a></li>
+        <li class= "main-nav__item"><a class="main-nav__link" href="#">SERVICES</a></li>
+        <li class= "main-nav__item"><a class="main-nav__link" href="#">PORTFOLIO</a></li>
+        <li class= "main-nav__item"><a class="main-nav__link" href="#">OTHER</a></li>
+        <li class= "main-nav__item"><a class="main-nav__link" href="#">CONTACT</a></li>
       </ul>
     </div>
   </header>
@@ -58,73 +58,97 @@
      <div class="container--small">
       <h1 class="blog__title">WHY USE MISSINGIDEA?</h1>
         <p class="blog__title-description">As a professional website maker company which has been established since 1950, before the existence of the internet even before the existence of computer, we have been created website above the paper media and blackboard.</p>
-        <ul class="blog__items">
-          <li class="blog__items"><span class="blog__items-circle">1</span><p class="blog__items-content">We are the first website maker in the world</p></li>
-          <li class="blog__items"><span class="blog__items-circle">2</span><p class="blog__items-content">Our website designs are always be the coolest ones</p></li>
-          <li class="blog__items"><span class="blog__items-circle">3</span><p class="blog__items-content">We are one of the internet inventors, what else you ask for more?</p></li>
-          <li class="blog__items"><span class="blog__items-circle">4</span><p class="blog__items-content">Do you know Apple and Google website right? Those are not made by us</p></li>
-          <li class="blog__items"><span class="blog__items-circle">5</span><p class="blog__items-content">We are still using typewriter</p></li>
+        <div class="grid">
+          
+        </div>
+        <ul class="blog__item">
+          <li class="blog__item"><span class="blog__item-circle">1</span><p class="blog__item-content">We are the first website maker in the world</p></li>
+          <li class="blog__item"><span class="blog__item-circle">2</span><p class="blog__item-content">Our website designs are always be the coolest ones</p></li>
+          <li class="blog__item"><span class="blog__item-circle">3</span><p class="blog__item-content">We are one of the internet inventors, what else you ask for more?</p></li>
+          <li class="blog__item"><span class="blog__item-circle">4</span><p class="blog__item-content">Do you know Apple and Google website right? Those are not made by us</p></li>
+          <li class="blog__item"><span class="blog__item-circle">5</span><p class="blog__item-content">We are still using typewriter</p></li>
         </ul>
      </div>
   </section>
 
-  <section class="service-header">
-    <img class="service-header__image" src="images/icon-home-1.png" alt="">
-    <h1 class="service-header__title">Amazing Services</h1>
-    <span class="service-header__sub-title">We have numbers of services which you can choose:</span>
-  </section>
-
   <section class="service">
+      <div class="service-header">
+        <img class="service-header__image" src="images/icon-home-1.png" alt="">
+        <h1 class="service-header__title">Amazing Services</h1>
+        <span class="service-header__sub-title">We have numbers of services which you can choose:</span>
+      </div>
       <div class="container--small">
         <div class="grid">
-          <div class="grid__item  service__item one-quarter">
-            <span class="service__circle"><span class="service__icon icon-video"></span></span>
-            <h1 class="service__title">Video Animation</h1>
-            <p class="service__content">The easy way to create and share extraordinary videos of your life. Our online video team will turns your photos, video clips and music into video in minutes.</p>
+          <div class="grid__item   one-quarter">
+            <div class="service__item"> 
+              <span class="service__circle"><span class="service__icon icon-video"></span></span>
+              <h1 class="service__title">Video Animation</h1>
+              <p class="service__content">The easy way to create and share extraordinary videos of your life. Our online video team will turns your photos, video clips and music into video in minutes.</p>
+            </div>
           </div><!-- 
-           --><div class="grid__item  service__item one-quarter">
-            <span class="service__circle"><span class="service__icon icon-wordpress"></span></span>
-            <h1 class="service__title">WordPress Theme Creator</h1>
-            <p class="service__content">We builds WordPress themes that are easy-to-use and highly customizable. It comes with an advanced option panel where you can easily customize your website.</p>
+           --><div class="grid__item  one-quarter">
+              <div class="service__item">
+                <span class="service__circle"><span class="service__icon icon-wordpress"></span></span>
+                <h1 class="service__title">WordPress Theme Creator</h1>
+                <p class="service__content">We builds WordPress themes that are easy-to-use and highly customizable. It comes with an advanced option panel where you can easily customize your website.</p>
+              </div>
+          
           </div><!-- 
-           --><div class="grid__item  service__item one-quarter">
-            <span class="service__circle"><span class="service__icon icon-like"></span></span>
-            <h1 class="service__title">Social media</h1>
-            <p class="service__content">Social media can be defined as "interactive platforms via which individuals and communities create and share user-generated content".</p>
+           --><div class="grid__item one-quarter">
+              <div class="service__item">
+                <span class="service__circle"><span class="service__icon icon-like"></span></span>
+                <h1 class="service__title">Social media</h1>
+                <p class="service__content">Social media can be defined as "interactive platforms via which individuals and communities create and share user-generated content".</p>
+              </div>
+           
           </div><!-- 
-           --><div class="grid__item  service__item one-quarter">
-            <span class="service__circle"><span class="service__icon icon-camera"></span></span>
-            <h1 class="service__title">Photography Service</h1>
-            <p class="service__content">We can capture your beautiful and awesome moment into wonderful frames. Our photography team will help you on all your photo requirement.</p>
+           --><div class="grid__item one-quarter">
+              <div class="service__item">
+                <span class="service__circle"><span class="service__icon icon-camera"></span></span>
+                <h1 class="service__title">Photography Service</h1>
+                <p class="service__content">We can capture your beautiful and awesome moment into wonderful frames. Our photography team will help you on all your photo requirement.</p>
+              </div>
+            
           </div><!-- 
-           --><div class="grid__item  service__item one-quarter">
-            <span class="service__circle"><span class="service__icon icon-pen"></span></span>
-            <h1 class="service__title">Content Writer</h1>
-            <p class="service__content">Our writer will help you to maintenance your blog and write interesting story for your blog. More audience will visit your blog and your blog will more appealing.</p>
+           --><div class="grid__item one-quarter">
+              <div class="service__item">
+                  <span class="service__circle"><span class="service__icon icon-pen"></span></span>
+                  <h1 class="service__title">Content Writer</h1>
+                  <p class="service__content">Our writer will help you to maintenance your blog and write interesting story for your blog. More audience will visit your blog and your blog will more appealing.</p>
+              </div>
+          
           </div><!-- 
-           --><div class="grid__item  service__item one-quarter">
-            <span class="service__circle"><span class="service__icon icon-mail"></span></span>
-            <h1 class="service__title">Email Marketing</h1>
-            <p class="service__content">Why use third party software if we can handle your email marketing? Our Newsletter platform and team will help you deliver the message to your customer.</p>
+           --><div class="grid__item one-quarter">
+              <div class="service__item">
+                <span class="service__circle"><span class="service__icon icon-mail"></span></span>
+                  <h1 class="service__title">Email Marketing</h1>
+                  <p class="service__content">Why use third party software if we can handle your email marketing? Our Newsletter platform and team will help you deliver the message to your customer.</p>
+              </div>
+           
           </div><!-- 
-           --><div class="grid__item  service__item one-quarter">
-            <span class="service__circle"><span class="service__icon icon-cloud"></span></span>
-            <h1 class="service__title">Cloud Hosting</h1>
-            <p class="service__content">We have cloud hosting with affordable price. Save your data on cloud so you can access it anywhere and anytime.</p>
+           --><div class="grid__item one-quarter">
+              <div class="service__item">
+                <span class="service__circle"><span class="service__icon icon-cloud"></span></span>
+                <h1 class="service__title">Cloud Hosting</h1>
+                <p class="service__content">We have cloud hosting with affordable price. Save your data on cloud so you can access it anywhere and anytime.</p>
+              </div>
+           
           </div><!-- 
-           --><div class="grid__item  service__item one-quarter">
-            <span class="service__circle"><span class="service__icon icon-home"></span></span>
-            <h1 class="service__title">E-Commerce</h1>
-            <p class="service__content">Open your online store in minutes. We have amazing e-commerce platform for any store out there. And it’s easy to use too.</p>
+           --><div class="grid__item one-quarter">
+              <div class="service__item">
+                <span class="service__circle"><span class="service__icon icon-home"></span></span>
+                <h1 class="service__title">E-Commerce</h1>
+                <p class="service__content">Open your online store in minutes. We have amazing e-commerce platform for any store out there. And it’s easy to use too.</p>
+              </div>
+
           </div>
         </div>
       </div>
+      <div class="service-button">
+        <button  class="primary-button">MORE SERVICE</button>
+      </div>
   </section>
   
-  <section>
-    <button  class="service-button primary-button">MORE SERVICE</button>    
-  </section>
-
   <section class="portfolio">
     <div class="container--small">
       <img class="portfolio__image" src="images/icon-home-2.png" alt="">
@@ -132,37 +156,183 @@
       <p class="portfolio__sub-title">Check it by yourself, we have amazing portfolio</p>
       <div class="grid grid--center">
         <div class="grid__item one-quarter">
-              <div class="portfolio__items">
-                <h1 class="portfolio__items-title"><a class="portfolio__items-title" href="">WORDPRESS </a></h1>
-                <img class="portfolio__items-image" src="images/img-5.jpg" alt="">
-                <p class="portfolio__items-sub-title">Logo, website</p>
+              <div class="portfolio__item">
+                <h1 class="portfolio__item-title"><a class="portfolio__item-title" href="">WORDPRESS </a></h1>
+                <img class="portfolio__item-image" src="images/img-5.jpg" alt="">
+                <p class="portfolio__item-sub-title">Logo, website</p>
               </div>
         </div><!-- 
          --><div class="grid__item one-quarter ">
-              <div class="portfolio__items">
-                <h1 class="portfolio__items-title"><a class="portfolio__items-title" href="">BALI HOTEL</a></h1>
-                <img class="portfolio__items-image" src="images/img-6.jpg" alt="">
-                <p class="portfolio__items-sub-title">Website, Branding</p>
+              <div class="portfolio__item">
+                <h1 class="portfolio__item-title"><a class="portfolio__item-title" href="">BALI HOTEL</a></h1>
+                <img class="portfolio__item-image" src="images/img-6.jpg" alt="">
+                <p class="portfolio__item-sub-title">Website, Branding</p>
               </div>
         </div><!-- 
              --><div class="grid__item one-quarter">
-              <div class="portfolio__items">
-                <h1 class="portfolio__items-title"><a class="portfolio__items-title" href="">JOHN DOW WEDDING</a></h1>
-                <img class="portfolio__items-image" src="images/img-7.jpg" alt="">
-                <p class="portfolio__items-sub-title">Photography, Website</p>
+              <div class="portfolio__item">
+                <h1 class="portfolio__item-title"><a class="portfolio__item-title" href="">JOHN DOW WEDDING</a></h1>
+                <img class="portfolio__item-image" src="images/img-7.jpg" alt="">
+                <p class="portfolio__item-sub-title">Photography, Website</p>
               </div>
         </div><!-- 
          --><div class="grid__item one-quarter">
-              <div class="portfolio__items">
-                <h1 class="portfolio__items-title"><a class="portfolio__items-title" href="">OEN INTERNATIONAL HOSPITAL</a></h1>
-                <img class="portfolio__items-image" src="images/img-8.jpg" alt="">
-                <p class="portfolio__items-sub-title">Website</p>
+              <div class="portfolio__item">
+                <h1 class="portfolio__item-title"><a class="portfolio__item-title" href="">OEN INTERNATIONAL HOSPITAL</a></h1>
+                <img class="portfolio__item-image" src="images/img-8.jpg" alt="">
+                <p class="portfolio__item-sub-title">Website</p>
               </div>
         </div>
       </div>
       <button class="primary-button portfolio__button">MORE PORTFOLIO</button>
     </div>
   </section>
+
+  <section class="other">
+    <div class="container--small">
+      <h1 class="other__title">AMAZING DESIGN PACKAGE</h1>
+      <div class="grid">
+        <div class="grid__item desk--one-third">
+          <div class="other__item">
+            <span class="icon-wordpress other__icon"></span>
+            <h1 class="other__item-title">REGULAR PLAN</h1>
+            <div class="other__item-container">
+              <p class="other__item-container-title">FROM</p>
+              <p class="other__item-container-price">$1,299</p>
+            </div>
+            <p class="other__item-description">3 Revision Design</p>
+            <p class="other__item-description">Use WordPress as CMS</p>
+            <p class="other__item-description">1GB Hosting Storage</p>
+            <p class="other__item-description">3 Unique Pages</p>
+            <p class="other__item-description">No Logo</p>
+            <button class="primary-button other__button"> ORDER NOW</button>
+          </div>
+        </div><!-- 
+         --><div class="grid__item desk--one-third">
+              <div class="other__item other__item--border">
+                <div class="other__item-popular">MOST POPULAR</div>
+                <span class="icon-like other__icon"></span>
+                <h1 class="other__item-title">PREMIUM PLAN</h1>
+                <div class="other__item-container">
+                  <p class="other__item-container-title">FROM</p>
+                  <p class="other__item-container-price">$2,299</p>
+                </div>
+                <p class="other__item-description">6 Revision Design</p>
+                <p class="other__item-description">Use Custom CMS</p>
+                <p class="other__item-description">5GB Hosting Storage</p>
+                <p class="other__item-description">10 Unique Pages</p>
+                <p class="other__item-description">Bonus Logo</p>
+                <button class="primary-button other__button"> ORDER NOW</button>
+          </div>
+        </div><!-- 
+        --><div class="grid__item desk--one-third">
+              <div class="other__item">
+                <span class="icon-home other__icon"></span>
+                <h1 class="other__item-title">ECOMMERCE PLAN</h1>
+                <div class="other__item-container">
+                  <p class="other__item-container-title">FROM</p>
+                  <p class="other__item-container-price">$3,299</p>
+                </div>
+                <p class="other__item-description">Unlimited Revision Design</p>
+                <p class="other__item-description">Use Magento as CMS</p>
+                <p class="other__item-description">1TB Hosting Storage</p>
+                <p class="other__item-description">15 Unique Pages</p>
+                <p class="other__item-description">Bonus Logo</p>
+                <button class="primary-button other__button"> ORDER NOW</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="container--small">
+      <div class="grid">
+        <div class="grid__item three-quarters">
+          <div class="contact__description-container">
+            <p class="contact__description">Got any Question? Don’t be shame, just contact us & we’ll get you back</p>
+          </div>
+        </div><!-- 
+         --><div class="grid__item one-quarter">
+          <div class="contact__button-container">
+            <button class="secundary-button contact__button">CONTACT US NOW</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container--small">
+      <div class="grid">
+        <div class="grid__item one-quarter">
+          <div>
+            <a href="#"><img src="images/logo-dark.png" alt="Logo"></a>
+            <p class="footer__description">Maecenas leo purus, porta sit amet mauris ut, bibendum adipiscing odio. Lorem ipsum dolor sit amet pallentesque adispicing vivamur pulvinar.</p>
+          </div>
+          <div>
+          <span class="icon-phone-footer footer__font-icon"><span class="footer__contact-info">+62 83848585</span></span>
+           <span class="icon-mail-footer footer__font-icon"><span class="footer__contact-info">hello@cubicthemes.com</span></span>
+          </div>
+          <div>
+          </div>
+        </div><!-- 
+         --><div class="grid__item one-quarter">
+         <h4 class="footer__content-title">SITEMAP</h4>
+          <ul class="footer__content">
+            <li class="footer__list-item"><a class="footer__list-link" href="">About us </a></li>
+            <li class="footer__list-item"><a class="footer__list-link" href="">What can we do? </a></li>
+            <li class="footer__list-item"><a class="footer__list-link" href="">Portfolio & Upcoming Work </a></li>
+            <li class="footer__list-item"><a class="footer__list-link" href="">How it works </a></li>
+            <li class="footer__list-item"><a class="footer__list-link" href="">Our Team </a></li>
+            <li class="footer__list-item"><a class="footer__list-link" href="">History </a></li>
+            <li class="footer__list-item"><a class="footer__list-link" href="">Contact Us </a></li>
+          </ul>
+        </div><!-- 
+         --><div class="grid__item one-quarter">
+          <h4 class="footer__content-title">OUR PRODUCTS</h4>
+          <ul class="footer__content">
+            <li class="footer__list-item"><a class="footer__list-link" href="">Social Media </a></li>
+            <li class="footer__list-item"><a class="footer__list-link" href="">WordPress Theme </a></li>
+            <li class="footer__list-item"><a class="footer__list-link" href="">E-commerce </a></li>
+            <li class="footer__list-item"><a class="footer__list-link" href="">Javascript Frameworks </a></li>
+            <li class="footer__list-item"><a class="footer__list-link" href="">Slideshow </a></li>
+            <li class="footer__list-item"><a class="footer__list-link" href="">WordPress Plugin </a></li>
+            <li class="footer__list-item"><a class="footer__list-link" href="">Frameworks </a></li>
+          </ul>
+        </div><!-- 
+         --><div class="grid__item one-quarter">
+          <h4>FROM OUR BLOG</h4>
+          <div class="grid">
+            <div class="grid__item one-half">
+              <img class="footer__image" src="images/img-9.jpg" alt="#">
+            </div><!-- 
+             --><div class="grid__item one-half">
+              <a class="footer__list-link-bold" href="#">We just finish creating a website for Adidas</a>
+              <span class="footer__blog-date">JULY 5, 2014</span>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="grid__item one-half">
+              <img class="footer__image" src="images/img-10.jpg" alt="#">
+            </div><!-- 
+             --><div class="grid__item one-half">
+              <a class="footer__list-link-bold" href="#">A new Office is opening by our President</a>
+              <span class="footer__blog-date">JULY 2, 2014</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__nav-bar">
+      <p class="footer__nav-bar-description">© 2014 Cubicthemes - P Sherman, 42 Wallaby Way, Australia</p>
+      <ul class="footer__nav-bar-list">
+        <li class="footer__nav-bar-item"><a class="footer__nav-bar-link" href="">Home</a></li>
+        <li class="footer__nav-bar-item"><a class="footer__nav-bar-link" href="">Terms</a></li>
+        <li class="footer__nav-bar-item"><a class="footer__nav-bar-link" href="">Contact</a></li>
+      </ul>
+      </div>
+    </div>
+  </footer>
 
 </body>
 </html>

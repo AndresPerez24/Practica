@@ -1,4 +1,5 @@
 .about{
+	padding: 0 5%;
 	&__title{
 		font-family: 'Montserrat', sans-serif;
 		font-weight: 800;
@@ -13,12 +14,12 @@
 
 	}
 	&__description{
-	font: 14px 'Open Sans', sans-serif;
-	color: $secundary-color;	
-	@include font-size(18px);
+		font: 14px 'Open Sans', sans-serif;
+		color: $secundary-color;	
+		@include font-size(18px);
 	}
 	&__image{
-		height: 520px;
-  		width: 450px;
+		width: 100%;
+		max-width: 520px;
 	}
 }

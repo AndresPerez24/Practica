@@ -1,0 +1,72 @@
+.other{
+	text-align: center;
+	background: url("../images/img-78.jpg") no-repeat;
+	background-size: cover;
+	padding: 4em 0 5.8571em;
+	margin-bottom: 60px;
+	&__title{
+		color: $primary-color;
+		letter-spacing: 2px;
+		@include font-size(30px);
+	}
+	&__icon{
+		@include font-size(35px);
+		display: inline-block;
+		padding-top: 40px;
+	}
+	&__item{
+		opacity: 0.9;
+ 		background-color: $background-color;
+ 		border: 5px solid $primary-color;
+ 		transition: 0.4s;
+ 		&:hover{
+ 			box-shadow: 0 0 0 10px rgba(0,0,0,0.1) inset;
+ 			opacity: inherit;
+ 		}
+	}
+	&__item-popular{
+		@include font-size(10px);
+		color: $primary-color;
+		background-color: $tertiary-color;
+		line-height: 30px;
+		letter-spacing: 1px;
+		font-weight: bold;
+		width: 160px;
+  		height: 30px;
+  		margin: 0 auto -30px auto;
+		position: relative;
+		top: -20px;
+	}
+	&__item--border{
+		border: 5px solid $tertiary-color;
+	}
+	&__item-title{
+		@include font-size(16px);
+	}
+	&__item-container{
+		background-color: $quaternary-color;
+		margin: 0 30px 20px 30px;
+  		padding: 15px 0;
+  		color: $primary-color;
+  		@include font-size(11px);
+	}
+	&__item-container-title{
+		margin: 0;
+	}
+	&__item-container-price{
+		@include font-size(30px);
+		margin: 0;
+		font-family: 'Roboto', sans-serif;
+	}
+	&__item-description{
+		font: 14px 'Open Sans', sans-serif;
+		font-size: 14px;
+		font-weight: 200;
+		margin: 0 0 8px 0;
+		letter-spacing: 1px;
+	}
+	&__button{
+		padding: 12px 90px;
+ 		 margin: 30px;
+	}
+}

@@ -4,7 +4,7 @@
 .main-nav{
 	float: right;
 	padding-top: 10px;
-	&__items{
+	&__item{
 	display: inline-block;
 	font-family: Montserrat;
 	margin-right: 3px;
@@ -12,12 +12,12 @@
 	&__bold{
 		font-weight: 700;
 	}
-	&__links{
+	&__link{
 	color: $primary-color;
 	border: 2px solid rgba(0, 0, 0, 0);
 	padding: 6px 8px;
+	transition: 0.7s;
 	&:hover{
-		transition: 0.7s;
 		border-color: white;
 		}
 	}
